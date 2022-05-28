@@ -1,0 +1,76 @@
+<html>
+    <body BGCOLOR="silver">
+        <title>Formulárioo</title>
+
+        <table BORDER=3 BGCOLOR="#856363" width="100%">
+            <TH ><font color="black"><h3>Cadastro</h3></font> </TH>
+        </table>
+
+        <FORM NAME="form_cadastro" METHOD="POST">
+        <h4>Dados Pessoais</h4>
+        <table width="100%">
+                <tr>
+                    <td width="15%"><font size="3" face="arial"> Nome Completo</font></td>
+                    <td><input type="text" name="NomeCompleto" size="80"></td>
+                        
+                </tr>
+                <tr>
+                    <td width="15%"><font size="3" face="arial">Idade</font></td>
+                    <td>
+                        <select name="tipo">
+                            <option >
+                            <option value="1"> 18 a 25
+                            <option value="2"> 26 a 33
+                            <option value="3"> 34 a 41
+                            <option value="4"> 42 a 49
+                            <option value="5"> Acima de 50    
+                        </select>
+                        
+                </tr>
+        </table>
+
+        <h4>Contato</h4>
+        <table width="100%">
+                <tr>
+                    <td width="15%"><font size="3" face="arial"> Email</font></td>
+                    <td><input type="text" name="email" size="80"></td>
+                </tr>
+                <tr>
+                    <td width="15%"><font size="3" face="arial">Telefone</font></td>
+                    <td><input type="text" name="telefone" size="20"></td>
+                </tr>
+                <tr>
+                    <td width="15%"><font size="3" face="arial"> Região</font></td>
+                    <td>
+                        <select name="tipo">
+                            <option >
+                            <option value="1"> Norte
+                            <option value="2"> Nordeste
+                            <option value="3"> Centro-Oeste
+                            <option value="4"> Sudeste
+                            <option value="5"> Sul
+                    
+                    <tr>
+                        <td width="15%"><font size="3" face="arial">Cidade e Estado</font></td>
+                        
+                    <td><input type="text" name="estado" size="35"></td>                      
+                                   
+                        </select>
+                    </td> 
+                </tr>
+                <tr>
+                    <td width="15%"><font size="5" face="arial">Observações</font></td>
+                    <td>
+                        <TEXTAREA NAME="observações" COLS=50 ROWS=5></TEXTAREA>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="3">
+                            <INPUT TYPE="SUBMIT" VALUE="Salvar">
+                    </td>
+                </tr>
+        </table>
+        </FORM>
+        
+    </body>
+</html>
